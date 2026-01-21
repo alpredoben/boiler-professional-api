@@ -13,6 +13,7 @@ export interface In_DecodedToken extends JwtPayload {
   email: string;
   roles?: string[];
   type?: "access" | "refresh";
+  [key: string]: any;
 }
 
 export interface In_ApiResponseMeta {
@@ -44,12 +45,10 @@ export interface In_PaginationParams {
   page: number;
   limit: number;
   sort?: string;
-  order?: 'ASC' | 'DESC';
+  order?: "ASC" | "DESC";
   search?: string;
   filters?: Record<string, any>;
 }
-
-
 
 export interface In_CacheOptions {
   ttl?: number; // Time to live in seconds
