@@ -1,3 +1,4 @@
+```
 professional-rest-api/
 ├── src/
 │   ├── config/
@@ -208,3 +209,4 @@ professional-rest-api/
 ├── docker-compose.prod.yml         # Production environment compose
 ├── tsconfig.json                   # ✅ Created - TypeScript config
 └── README.md                       # Project documentation
+```
